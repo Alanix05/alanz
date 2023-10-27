@@ -95,8 +95,8 @@ input[id="dlugosc"]{
     float: right;
     width: 30px;
     right: 0;
-    top: 100px;
-    margin-top: -160px;
+    
+    margin-top: -10px;
     margin-right: 20px;
 }
 

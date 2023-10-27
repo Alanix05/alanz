@@ -8,9 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="telefon.css">
     </head>
     <body>
-        
+      <div id="dark" class="button">
+        <button id="darkmode" onclick="toggleDarkMode()">&#127770;</button>
+    </div>
        <div id="strona"><h2>Generator haseł</h2>
 
         <form>
@@ -34,14 +37,11 @@
             <button onclick="window.location.reload();">Odśwież</button>
             <button id="Pobierz" onclick="downloadPasswords(event)">Pobierz hasło</button>
           </form>
-          <div id="dark" class="button">
-            <button id="darkmode" onclick="toggleDarkMode()">&#127770;</button>
-        </div>
-          
+           
           <div id="generatedPassword" class="vertical-menu"></div>
           
           <div id="instrukcja" class="instrukcja">
-            <br>
+            <p>
             <details>
                 <summary>Jak wygenerować hasło?</summary>
                 <h3>Instrukcja:</h3>
@@ -52,6 +52,7 @@
             <li>Jeśli chcemy pobrać wygenerowane hasła, klikamy przycisk "Pobierz hasło/hasła".</li>
             <li>Aby odświerzyć stronę klikamy przycisk "Odśwież"</li></ol>
           </details>
+          </p>
           </div>
           <script src="generator haseł.js" async defer></script>
           </div>

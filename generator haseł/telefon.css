@@ -1,6 +1,6 @@
 
             /* Styl dla urządzeń mobilnych */
-            @media {
+            @media (max-width: 768px){
                 html{
                     font-family: Calibri;
                 }

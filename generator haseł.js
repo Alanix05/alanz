@@ -13,7 +13,7 @@ function toggleDarkMode() {
     element.classList.toggle("dark-mode");
     var darkButton = document.getElementById("darkmode");
     if (element.classList.contains("dark-mode")) {
-        darkButton.innerHTML = "&#127774;"; 
+        darkButton.innerHTML = "&#127773;"; 
     } else {
         darkButton.innerHTML = "&#127770;"; 
     }

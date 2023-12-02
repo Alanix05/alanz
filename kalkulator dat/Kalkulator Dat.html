@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator dat</title>
+    <link rel="stylesheet" href="../darkmode.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="kalkulator dat.css">
+    <link rel="stylesheet" href="../telefon.css">
+</head>
+
+<body>
+    <div id="dark" class="button">
+        <button id="darkmode" onclick="toggleDarkMode(event)">&#127770;</button>
+    </div>
+    <header>
+        <h1>Kalkulator dat</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Strona główna</a>
+        <a href="../generator haseł/generator haseł.html">Generator haseł</a>
+        <a href="Kalkulator Dat.html">Kalkulator dat</a>
+    </nav>
+    <form>
+        <p><label for="dataStart">Data początkowa: </label>
+            <input type="date" id="dataStart">
+        </p>
+        <p>
+            <label for="lata">Lata: </label>
+            <input type="number" id="lata" min="0" value="0">
+
+            <label for="miesiace">Miesiące: </label>
+            <input type="number" id="miesiace" min="0" max="11" value="0">
+
+            <label for="dni">Dni: </label>
+            <input type="number" id="dni" min="0" max="30" value="0">
+        </p>
+        <p><button onclick="obliczPrzyszlaDate(event)">Wylicz datę</button></p>
+    </form>
+
+    <div id="wynik" onclick="skopiujDate()" onmouseover="podswietlDate()" onmouseout="resetujPodswietlenie()"></div>
+
+    <script src="../darkmode.js"></script>
+    <
+</body>
+
+</html>

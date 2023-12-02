@@ -1,0 +1,111 @@
+
+            /* Styl dla urządzeń mobilnych */
+            @media (max-width: 768px) {
+                html{
+                    font-family: Calibri;
+                }
+                body{
+                    background-color: khaki;
+                }
+                h2{
+                    text-align: center;
+                }
+                h3{
+                    text-align: left;
+                }
+                
+                h4{
+                    text-align: center;
+                }
+                .strona{
+                    position: relative;
+                }
+                
+                form{
+                    border-style: groove;
+                    padding: 10px 25px 10px 25px;
+                    width: 70%;
+                    height: auto;
+                    
+                    
+                    text-align: left;
+                    position: relative
+                }
+                
+                .vertical-menu {
+                
+                height: 100px;
+                width: 70%;
+                float:left;
+                border-style: groove;
+                text-align: left;
+                padding: 10px 25px 10px 25px;
+                position: relative;
+                
+                }
+                
+                
+                button {
+                    display: inline-block;
+                    width:fit-content;
+                    font-size: 14px;
+                    cursor: pointer;
+                    text-align: center;
+                    text-decoration: none;
+                    outline: none;
+                    color: #fff;
+                    background-color: #787878;
+                    border: none;
+                    border-radius: 15px;
+                    box-shadow: 0 7px #666666;
+                    margin-top: 10px;
+                }
+                
+                button:hover {
+                    background-color: #3e8e41;
+                    box-shadow: 0 7px #017505;
+                
+                }
+                
+                button:active {
+                    background-color: #3e8e41;
+                    box-shadow: 0 5px #017505;
+                    transform: translateY(4px);
+                }
+                
+                .password {
+                    cursor: pointer;
+                }
+                .img{
+                    float: right;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                    position: relative;
+                }
+                input[id="dlugosc"]{
+                    width: 40px;
+                    text-align: left;
+                }
+                .dark-mode {
+                    background-color: rgb(32, 32, 32);
+                    color: white;
+                }
+                .button{
+                    position: static;
+                    float: right;
+                    width: 30px;
+                    right: 0;
+                    
+                    margin-top: 1%;
+                    margin-right: 6%;
+                }
+                
+                .instrukcja{
+                padding-top: -20px;
+                width: auto;
+                float: left;
+                
+                padding-right: 10px;
+
+                }
+            }
